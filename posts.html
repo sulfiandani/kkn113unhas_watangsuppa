@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Postingan - Program Kerja Sama</title>
+</head>
+<body>
+    <header>
+        <h1>Postingan</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="documentation.html">Dokumentasi</a></li>
+                <li><a href="posts.html">Postingan</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Buat Postingan Baru</h2>
+        <form id="postForm">
+            <textarea id="postContent" rows="4" placeholder="Tulis postingan di sini..." required></textarea>
+            <br>
+            <input type="file" id="postImage" accept="image/*">
+            <br>
+            <button type="submit">Kirim Postingan</button>
+        </form>
+
+        <h2>Artikel Terbaru</h2>
+        <div id="postsContainer"></div>
+    </main>
+    <footer>
+        <p>&copy; 2023 Program Kerja Sama</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
