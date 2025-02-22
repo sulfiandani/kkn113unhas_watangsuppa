@@ -1,0 +1,62 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+header {
+  background: #007BFF; /* Warna biru */
+  color: #ffffff; /* Warna teks putih */
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* Warna tautan putih */
+  text-decoration: none;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333; /* Warna latar belakang footer */
+  color: #ffffff; /* Warna teks footer putih */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+.post {
+  background: #ffffff; /* Warna latar belakang postingan */
+  border: 1px solid #ccc; /* Garis batas */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px; /* Sudut melengkung */
+}
+.post {
+  background: #ffffff; /* Warna latar belakang postingan */
+  border: 1px solid #ccc; /* Garis batas */
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px; /* Sudut melengkung */
+}
+
+.post-image {
+  max-width: 100%; /* Membuat gambar responsif */
+  height: auto; /* Menjaga rasio aspek gambar */
+  margin-top: 10px; /* Jarak atas untuk gambar */
+}
